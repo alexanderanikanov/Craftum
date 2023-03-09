@@ -1,0 +1,56 @@
+button {
+	font-family: "Gilroy";
+}
+
+button img {
+	float: left;
+	padding-right: 10px;
+}
+
+.user-menu button {
+	border-radius: 24px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 12px 24px;
+}
+
+.button-login--white {
+	background-color: #fff;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	margin-right: 10px;
+}
+
+.button-login--white:hover {
+	border-color: #000000;
+}
+
+.button-reg--black {
+	color: #fff;
+	background-color: #000;
+	border: 2px solid #000;
+}
+
+.button-reg--black:hover {
+	border-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.button-reg--pink {
+	background-color: #FE3268;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+	border: 2px solid#FE3268;
+	border-radius: 36px;
+	font-family: "Gilroy";
+	padding: 16px 32px;
+}
+
+.button-reg--pink:hover {
+	border-color: rgb(253, 99, 140);
+	background-color: rgb(253, 99, 140);
+}
