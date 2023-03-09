@@ -1,0 +1,25 @@
+.nav-item a {
+	text-decoration: none;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	color: #000;
+}
+
+.nav-item > a {
+	margin-right: 40px;
+}
+
+.nav-item a:last-child {
+	margin-right: 0;
+}
+
+.nav-item a:hover {
+	color: var(--secondary-hover);
+}
+
+.header-logo {
+	margin-right: 85px;
+}

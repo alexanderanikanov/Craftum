@@ -1,0 +1,14 @@
+:root {
+	--primary-border-color: rgba(0, 0, 0, 0.1);
+	--primary-border-color-hover: rgba(0, 0, 0, 0.2);
+	--primary-border-color-pressed: rgba(0, 0, 0, 0.08);
+
+  --secondary-color: #000;
+	--secondary-hover: #2D2D2D;
+	--secondary-pressed: #292929;
+
+  --tertiary-color: #FE3268;
+  --tertiary-hover: #F51652;
+  --tertiary-pressed: #F51751;
+}
+  

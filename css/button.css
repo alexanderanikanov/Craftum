@@ -1,56 +1,80 @@
-button {
+.button {
 	font-family: "Gilroy";
-}
-
-button img {
-	float: left;
-	padding-right: 10px;
-}
-
-.user-menu button {
-	border-radius: 24px;
 	font-style: normal;
 	font-weight: 700;
+	cursor: pointer;
+}
+
+.button--short,
+.button--medium {
+	border-radius: 24px;
+	padding: 12px 24px;
 	font-size: 15px;
 	line-height: 20px;
-	padding: 12px 24px;
 }
 
-.button-login--white {
-	background-color: #fff;
-	border: 2px solid rgba(0, 0, 0, 0.1);
-	margin-right: 10px;
-}
-
-.button-login--white:hover {
-	border-color: #000000;
-}
-
-.button-reg--black {
-	color: #fff;
-	background-color: #000;
-	border: 2px solid #000;
-}
-
-.button-reg--black:hover {
-	border-color: rgba(0, 0, 0, 0.1);
-	background-color: rgba(0, 0, 0, 0.6);
-}
-
-.button-reg--pink {
-	background-color: #FE3268;
-	font-style: normal;
-	font-weight: 700;
+.button--large {
+	max-width: 274px;
+	border-radius: 36px;
 	font-size: 18px;
 	line-height: 24px;
-	color: #fff;
-	border: 2px solid#FE3268;
-	border-radius: 36px;
-	font-family: "Gilroy";
 	padding: 16px 32px;
 }
 
-.button-reg--pink:hover {
-	border-color: rgb(253, 99, 140);
-	background-color: rgb(253, 99, 140);
+.button__icon {
+	float: left;
+	padding-right: 10px;
+}
+ 
+.button--primary {
+	background: #fff;
+	border: 2px solid var(--primary-border-color);
+	margin-right: 10px;
+}
+
+.button--primary:hover {
+	border: 2px solid var(--primary-border-color-hover);
+}
+
+.button--primary:active {
+	padding: 10px 22px;
+  border-radius: 22px;
+  font-size: 15px;
+	line-height: 20px;
+	border: 2px solid var(--primary-border-color-pressed);
+}
+
+.button--secondary {
+	background: var(--secondary-color);
+	color: #fff;
+}
+
+.button--secondary:hover {
+	background: var(--secondary-hover);
+}
+
+.button--secondary:active {
+	padding: 10px 22px;
+	border-radius: 22px;
+	font-size: 15px;
+	line-height: 20px;
+	background: var(--secondary-pressed);
+}
+
+.button--tertiary {
+	border: none;
+	color: #fff;
+	background: var(--tertiary-color);
+}
+
+.button--tertiary:hover {
+	background: var(--tertiary-hover)
+}
+
+.button--large:active {
+	padding: 14px 29px;
+	font-size: 18px;
+	line-height: 24px;
+	border-radius: 33.635px;
+	background: var(--tertiary-pressed);
 }
