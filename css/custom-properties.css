@@ -11,4 +11,11 @@
   --tertiary-hover: #F51652;
   --tertiary-pressed: #F51751;
 }
-  
+
+.bgr {
+	background: rgb(220, 243, 251);
+}
+
+.bgr2 {
+	background: #ef6c8f;
+}

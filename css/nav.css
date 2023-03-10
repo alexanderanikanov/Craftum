@@ -1,25 +1,30 @@
-.nav-item a {
-	text-decoration: none;
+.menu-content {
+	display: flex;
+	
+}
+
+.menu-content li {
+	list-style: none;
 	font-family: 'Gilroy';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 20px;
-	color: #000;
+	cursor: pointer;
 }
 
-.nav-item > a {
+.menu-content > li {
 	margin-right: 40px;
 }
 
-.nav-item a:last-child {
+.menu-content li:last-child {
 	margin-right: 0;
 }
 
-.nav-item a:hover {
+.menu-content li:hover {
 	color: var(--secondary-hover);
 }
 
-.header-logo {
-	margin-right: 85px;
+.menu-content li:active {
+	transform: scale(0.9);
 }

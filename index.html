@@ -22,34 +22,45 @@
 	<header class="header">
 		<div class="header-wrap">
 			<div class="header-logo">
-				<a href="#" class="header-logo">
-					<img class="logo-svg" src="./images/craftum.svg" title="Craftum"></img>
+				<a name="#" class="header-logo__anchor">
+					<img class="header-logo__svg" src="./images/craftum.svg" title="Craftum"></img>
 				</a>	
 			</div>
-			<div class="menu-nav">
-				<nav class="nav-item">
-					<a href="#tarif" title="Тарифы">Тарифы</a>	
-					<a href="#sites" title="Шаблоны сайтов">Шаблоны сайтов</a>	
-					<a href="#courses" title="Онлайн-курс">Онлайн-курс</a>	
+				<nav class="header-menu">
+					<ul class="menu-content">
+						<li>
+							<a name="#tariff" class="menu-content__anchor" title="Тарифы">Тарифы</a>
+						</li>
+						<li>
+							<a name="#sites" class="menu-content__anchor" title="Шаблоны сайтов">Шаблоны сайтов</a>
+						</li>
+						<li>
+							<a name="#courses" class="menu-content__anchor" title="Онлайн-курс">Онлайн-курс</a>
+						</li>
+					</ul>
 				</nav>
-			</div>
-			<div class="user-menu">
-				<button href="#form-login" class="button button--short button--default button--primary" title="Войти">Войти
+			<div class="login">
+				<button id="#login-form" class="button button--short button--default button--primary" title="Войти">
 					<img src="./images/shape.svg" class="button__icon">
+					Войти
 				</button>
-				<button href="#form-reg" class="button button--medium button--default button--secondary" title="Создать сайт">Создать сайт</button>
+				<button id="#reg-form" class="button button--medium button--default button--secondary" title="Создать сайт">
+					Создать сайт
+				</button>
 			</div>
 		</div>
 		<section class="container">
 			<div class="main-info">
-				<h1>Конструктор сайтов</h1>
-					<p>Используйте профессиональные шаблоны или придумайте дизайн с нуля</p>
+				<h1>
+					Конструктор <span class="title-accent">сайтов</span> 
+				</h1>
+					<p>
+						Используйте профессиональные шаблоны <span class="title-accent"> или придумайте дизайн с нуля</span>
+					</p>
 				<button href="#form-reg" class="button button--large button--default button--tertiary" title="Создать сайт бесплатно">Создать сайт бесплатно</button>
 			</div>	
 		</section>
 	</header>
-
-	
 	<main class="main-page">
 	</main>
 </body>
