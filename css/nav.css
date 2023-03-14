@@ -10,7 +10,6 @@
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 20px;
-	cursor: pointer;
 }
 
 .menu-content > li {
@@ -28,3 +27,4 @@
 .menu-content li:active {
 	transform: scale(0.9);
 }
+

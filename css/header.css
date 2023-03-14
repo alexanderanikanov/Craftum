@@ -6,10 +6,12 @@
 	margin-bottom: 88px;
 }
 
-.header-logo {
-	margin-right: 170px;
+.header-logo,
+.header-buttons {
+	width: 300px;
 }
 
-.header-menu {
-
+.menu-content__anchor {
+	text-decoration: none;
+	color: var(--secondary-color);
 }
